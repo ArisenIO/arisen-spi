@@ -1,4 +1,4 @@
-import { ApiInterfaces, RpcInterfaces } from 'eosjs'
+import { ApiInterfaces, RpcInterfaces } from '@arisencore/js'
 import { v4 as uuid } from 'uuid'
 import {
   instanceOfSelectiveDisclosureResponse,
@@ -46,7 +46,7 @@ interface PendingRequest {
   reject: (reason?: ErrorResponse) => void
 }
 
-// See https://github.com/EOSIO/eosio-authentication-transport-protocol-spec for protocol versions
+// See https://github.com/ARISENIO/arisen-authentication-transport-protocol-spec for protocol versions
 const AUTH_TRANSPORT_PROTOCOL_VERSION = '0.0.1'
 const REJECT_MESSAGE = {
   NEW_REQUEST: 'A new request was received.',

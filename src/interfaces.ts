@@ -1,5 +1,5 @@
 /**
- * EOSIO Interfaces
+ * ARISEN Interfaces
  * TODO: These should be moved somewhere else. Most are duplicated in other repos
  */
 
@@ -71,7 +71,7 @@ export interface SecurityExclusions {
 }
 
 /**
- * EOSIO Authentication Transport Protocol Specifications interfaces
+ * ARISEN Authentication Transport Protocol Specifications interfaces
  */
 
 export enum EnvelopeDataType {
@@ -82,7 +82,7 @@ export enum EnvelopeDataType {
 export enum SelectiveDisclosureType {
   AUTHORIZERS = 'authorizers'
   // tslint:disable-next-line
-  // TODO: Documentation says "availableKeys" instead of "authorizers"... but "authorizers" works with the EOSIO iOS app?
+  // TODO: Documentation says "availableKeys" instead of "authorizers"... but "authorizers" works with the ARISEN iOS app?
 }
 
 export interface Authorizer {

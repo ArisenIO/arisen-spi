@@ -1,7 +1,7 @@
 {
-  "name": "eosjs-signature-provider-interface",
+  "name": "arisen-spi",
   "version": "0.1.2",
-  "description": "An abstract class that implements the EOSJS SignatureProvider interface, and provides helper methods for interacting with an authenticator using the EOSIO Authentication Transport Protocol Specification.",
+  "description": "An abstract class that implements the ARISEN SignatureProvider interface, and provides helper methods for interacting with an authenticator using the ARISEN Authentication Transport Protocol Specification.",
   "author": {
     "name": "block.one",
     "url": "https://block.one"
@@ -13,22 +13,22 @@
     "Jeffrey Smith II"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/EOSIO/eosjs-signature-provider-interface#readme",
+  "homepage": "https://github.com/ARISENIO/arisen-spi#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EOSIO/eosjs-signature-provider-interface.git"
+    "url": "git+https://github.com/ARISENIO/arisen-spi.git"
   },
   "bugs": {
-    "url": "https://github.com/EOSIO/eosjs-signature-provider-interface/issues"
+    "url": "https://github.com/ARISENIO/arisen-spi/issues"
   },
   "keywords": [
     "signature",
     "provider",
     "interface",
     "bridge",
-    "eos",
-    "eosio",
-    "eosjs"
+    "rix",
+    "arisen",
+    "@arisencore/js"
   ],
   "main": "dist/index.js",
   "scripts": {
@@ -39,7 +39,7 @@
     "prepublish": "yarn clean-build"
   },
   "dependencies": {
-    "eosjs": "20.0.0",
+    "@arisencore/js": "1.0.2",
     "uuid": "3.3.2"
   },
   "devDependencies": {
