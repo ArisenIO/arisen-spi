@@ -1,10 +1,10 @@
 {
   "name": "arisen-spi",
-  "version": "0.1.2",
+  "version": "0.0.1",
   "description": "An abstract class that implements the ARISEN SignatureProvider interface, and provides helper methods for interacting with an authenticator using the ARISEN Authentication Transport Protocol Specification.",
   "author": {
-    "name": "block.one",
-    "url": "https://block.one"
+    "name": "arisen",
+    "url": "https://arisen.network"
   },
   "contributors": [
     "Ryan Wiesjahn",
