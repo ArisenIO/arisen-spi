@@ -6,7 +6,7 @@ Interested in contributing? That's awesome! Here are some guidelines to get star
   - [Bug Reports](#bug-reports)
   - [Feature Requests](#feature-requests)
   - [Change Requests](#change-requests)
-- [Working on ARISEN Signature Provider Interface](#working-on-arisen-spi)
+- [Working on ARISEN Signature Provider Interface](#working-on-arisen-signature-provider-interface)
   - [Feature Branches](#feature-branches)
   - [Submitting Pull Requests](#submitting-pull-requests)
   - [Testing and Quality Assurance](#testing-and-quality-assurance)
@@ -34,12 +34,12 @@ Guidelines for bug reports:
    reported.
 
 1. **Check if the issue has been fixed** &mdash; look for [closed issues in the
-   current milestone](https://github.com/ARISEN/arisen-spi/issues?q=is%3Aissue+is%3Aclosed) or try to reproduce it
+   current milestone](https://github.com/ARISEN/arisen-signature-provider-interface/issues?q=is%3Aissue+is%3Aclosed) or try to reproduce it
    using the latest `develop` branch.
 
 A good bug report shouldn't leave others needing to chase you up for more information. Be sure to include the details of your environment and relevant tests that demonstrate the failure.
 
-[Report a bug](https://github.com/ARISEN/arisen-spi/issues/new?title=Bug%3A)
+[Report a bug](https://github.com/ARISEN/arisen-signature-provider-interface/issues/new?title=Bug%3A)
 
 ### Feature Requests
 
@@ -59,7 +59,7 @@ Change requests cover both architectural and functional changes to how ARISEN Si
 
 ## Working on ARISEN Signature Provider Interface
 
-Code contributions are welcome and encouraged! If you are looking for a good place to start, check out the [good first issue](https://github.com/ARISEN/arisen-spi/labels/good%20first%20issue) label in GitHub issues.
+Code contributions are welcome and encouraged! If you are looking for a good place to start, check out the [good first issue](https://github.com/ARISEN/arisen-signature-provider-interface/labels/good%20first%20issue) label in GitHub issues.
 
 Also, please follow these guidelines when submitting code:
 
@@ -67,8 +67,8 @@ Also, please follow these guidelines when submitting code:
 
 To get it out of the way:
 
-- **[develop](https://github.com/ARISEN/arisen-spi/tree/develop)** is the development branch. All work on the next release happens here so you should generally branch off `develop`. Do **NOT** use this branch for a production site.
-- **[master](https://github.com/ARISEN/arisen-spi/tree/master)** contains the latest release of ARISEN Signature Provider Interface. This branch may be used in production. Do **NOT** use this branch to work on ARISEN Signature Provider Interface's source.
+- **[develop](https://github.com/ARISEN/arisen-signature-provider-interface/tree/develop)** is the development branch. All work on the next release happens here so you should generally branch off `develop`. Do **NOT** use this branch for a production site.
+- **[master](https://github.com/ARISEN/arisen-signature-provider-interface/tree/master)** contains the latest release of ARISEN Signature Provider Interface. This branch may be used in production. Do **NOT** use this branch to work on ARISEN Signature Provider Interface's source.
 
 ### Submitting Pull Requests
 
@@ -78,7 +78,7 @@ Pull requests are awesome. If you're looking to raise a PR for something which d
 
 Never underestimate just how useful quality assurance is. If you're looking to get involved with the code base and don't know where to start, checking out and testing a pull request is one of the most useful things you could do.
 
-Essentially, [check out the latest develop branch](#working-on-arisen-spi), take it for a spin, and if you find anything odd, please follow the [bug report guidelines](#bug-reports) and let us know!
+Essentially, [check out the latest develop branch](#working-on-arisen-signature-provider-interface), take it for a spin, and if you find anything odd, please follow the [bug report guidelines](#bug-reports) and let us know!
 
 ## Conduct
 

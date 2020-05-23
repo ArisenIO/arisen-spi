@@ -15,7 +15,7 @@ This base class handles creating the request envelopes with the expected data st
 ## Installation
 
 ```bash
-yarn add arisen-spi
+yarn add arisen-signature-provider-interface
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ import {
   instanceOfResponseEnvelope,
   packEnvelope,
   unpackEnvelope,
-} from 'arisen-spi'
+} from 'arisen-signature-provider-interface'
 
 export class SignatureProvider extends SignatureProviderInterface {
   private cachedKeys: string[]
