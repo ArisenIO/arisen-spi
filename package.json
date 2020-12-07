@@ -1,7 +1,7 @@
 {
   "name": "arisen-signature-provider-interface",
-  "version": "0.0.1",
-  "description": "An abstract class that implements the ARISEN SignatureProvider interface, and provides helper methods for interacting with an authenticator using the ARISEN Authentication Transport Protocol Specification.",
+  "version": "1.0.0",
+  "description": "ARISEN's Signature Provider Interface",
   "author": {
     "name": "arisen",
     "url": "https://arisen.network"
@@ -25,7 +25,7 @@
     "bridge",
     "rix",
     "arisen",
-    "@arisencore/js"
+    "arisenjsv1"
   ],
   "main": "dist/index.js",
   "scripts": {
@@ -36,7 +36,7 @@
     "prepublish": "yarn clean-build"
   },
   "dependencies": {
-    "@arisencore/js": "1.0.3",
+    "arisenjsv1": "1.0.3",
     "uuid": "3.3.2"
   },
   "devDependencies": {
