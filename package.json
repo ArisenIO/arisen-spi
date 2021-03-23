@@ -1,5 +1,5 @@
 {
-  "name": "arisen-signature-provider-interface",
+  "name": "@arisensdk/signature-provider-interface",
   "version": "1.0.0",
   "description": "ARISEN's Signature Provider Interface",
   "author": {
@@ -36,7 +36,7 @@
     "prepublish": "yarn clean-build"
   },
   "dependencies": {
-    "arisenjsv1": "1.0.3",
+    "arisensdk": "1.0.3",
     "uuid": "3.3.2"
   },
   "devDependencies": {

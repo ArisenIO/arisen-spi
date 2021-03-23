@@ -1,4 +1,4 @@
-import { ApiInterfaces, RpcInterfaces } from 'arisenjsv1'
+import { ApiInterfaces, RpcInterfaces } from 'arisensdk'
 
 import { v4 as uuid } from 'uuid'
 import {
